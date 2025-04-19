@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"77e050a56ec1e15e","x":-172,"y":-130,"width":250,"height":60,"type":"text","text":"Here is canvas"},
+		{"id":"3d6018d6afbc81d8","x":170,"y":74,"width":250,"height":60,"type":"text","text":"and another node"}
+	],
+	"edges":[
+		{"id":"bd1709a59ea5e94f","fromNode":"77e050a56ec1e15e","fromSide":"right","toNode":"3d6018d6afbc81d8","toSide":"left"}
+	]
+}
