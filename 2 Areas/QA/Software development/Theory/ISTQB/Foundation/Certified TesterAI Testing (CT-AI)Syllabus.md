@@ -1,0 +1,1 @@
+https://astqb.org/assets/documents/ISTQB_CT-AI_Syllabus_v1.0.pdf
