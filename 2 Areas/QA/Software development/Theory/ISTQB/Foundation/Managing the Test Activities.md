@@ -1,5 +1,0 @@
-[[Test Planning]]
-[[Risk Management]]
-[[Test Monitoring]], [[Test Control]] and [[Test Completion]]
-[[Configuration Management]]
-[[Defect Management]]

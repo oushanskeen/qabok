@@ -1,1 +1,0 @@
-https://www.altshuller.ru/triz/ariz85v.asp

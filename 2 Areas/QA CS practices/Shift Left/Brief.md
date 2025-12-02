@@ -1,1 +1,0 @@
-file:///home/oo/Downloads/QA.pdf

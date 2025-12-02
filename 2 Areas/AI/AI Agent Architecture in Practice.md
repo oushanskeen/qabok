@@ -1,2 +1,0 @@
-https://media.licdn.com/dms/image/v2/D4D22AQHzF-TLRqQYTg/feedshare-shrink_1280/B4DZaaRWTUHEAk-/0/1746344976234?e=1749081600&v=beta&t=_Xda6ISKeuEnPrwTjoZTULKHF4W7C0O209vxCtvPwj0
-![[Pasted image 20250507105306.png]]

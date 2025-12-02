@@ -1,2 +1,0 @@
-[[Risk Analysis]]
-[[Risk Control]]

@@ -1,1 +1,0 @@
-https://www.mlabs.city/blog/mastering-quickcheck

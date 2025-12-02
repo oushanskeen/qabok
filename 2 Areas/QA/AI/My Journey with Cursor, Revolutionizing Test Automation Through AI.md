@@ -1,1 +1,0 @@
-https://medium.com/@devan404/my-journey-with-cursor-revolutionizing-test-automation-through-ai-6cea58ddb259

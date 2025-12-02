@@ -1,1 +1,0 @@
-https://www.toyota-global.com/company/history_of_toyota/75years/data/company_information/management_and_finances/management/tqm/change.html
