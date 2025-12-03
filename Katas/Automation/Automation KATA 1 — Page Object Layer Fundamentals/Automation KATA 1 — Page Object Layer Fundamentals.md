@@ -1,6 +1,6 @@
-[[#1. Story Summary]] 
-[[#2. Purpose / Motivation]]
-[[#3. Scope]]
+✅ [[#1. Story Summary]] 
+✅ [[#2. Purpose / Motivation]]
+✅ [[#3. Scope]]
 [[#4. Acceptance Criteria (AC)]]
 [[#5. Definition of Ready (DoR)]]
 [[#6. DoR → DoD Traceability Matrix]]
@@ -113,15 +113,15 @@ Feature: POM documentation
 
 ## **5. Definition of Ready (DoR)**
 
-| DoR ID | DoR Item                    | Description                                                     | Owner     | Status |
-| ------ | --------------------------- | --------------------------------------------------------------- | --------- | ------ |
-| DoR-01 | Story description clear     | Story states objective: implement foundational POM              | PO        | ❓      |
-| DoR-02 | Acceptance criteria defined | AC clearly lists required classes, <br>methods, sample tests    | PO + Team | ❓      |
-| DoR-03 | Dependencies identified     | Framework installed, codebase accessible, dev environment ready | Team      | ❓      |
-| DoR-04 | UX/Design ready             | Not applicable; using existing UI elements                      | Design    | ❓      |
-| DoR-05 | Testability confirmed       | QA confirms selectors exist and are stable                      | QA        | ❓      |
-| DoR-06 | Estimation approved         | Estimated 2–4 hours for kata                                    | Team      | ❓      |
-| DoR-07 | Priority confirmed          | PO confirms kata is high-priority for automation foundation     | PO        | ❓      |
+| DoR ID | DoR Item                    | Description                                                       | Owner     | Status |
+| ------ | --------------------------- | ----------------------------------------------------------------- | --------- | ------ |
+| DoR-01 | Story description clear     | Story states objective: implement foundational POM                | PO        | ✅      |
+| DoR-02 | Acceptance criteria defined | AC clearly lists required classes, <br>methods, sample tests      | PO + Team | ✅      |
+| DoR-03 | Dependencies identified     | ✅ Framework installed, codebase accessible, dev environment ready | Team      | ⏳      |
+| DoR-04 | UX/Design ready             | Mockups and diagrams are added                                    | Design    | ❓      |
+| DoR-05 | Testability confirmed       | QA confirms selectors exist and are stable                        | QA        | ❓      |
+| DoR-06 | Estimation approved         | Estimated 2–4 hours for kata                                      | Team      | ❓      |
+| DoR-07 | Priority confirmed          | PO confirms kata is high-priority for automation foundation       | PO        | ❓      |
 
 ---
 
@@ -166,23 +166,23 @@ Feature: POM documentation
 ---
 
 ## **9. Implementation Plan**
-1. Initiate project
+- [x] 1. Initiate project
 ```terminal
 npm init
 ```
 
-2. Initiate playwright
+- [x] 2. Initiate playwright
 ```terminal
 npm init playwright@latest
 ```
 
-3. Implement `BasePage` with navigation and wait helpers
-4. Implement `LoginPage` as a concrete POM
-5. Implement one sample test using `LoginPage` methods
-6. Add README with POM usage instructions
-7. Run test locally
-8. Integrate test into CI pipeline
-9. Submit PR for code review
+- [ ] 3. Implement `BasePage` with navigation and wait helpers
+- [ ] 4. Implement `LoginPage` as a concrete POM
+- [ ] 5. Implement one sample test using `LoginPage` methods
+- [ ] 6. Add README with POM usage instructions
+- [ ] 7. Run test locally
+- [ ] 8. Integrate test into CI pipeline
+- [ ] 9. Submit PR for code review
 
 ---
 
