@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Katas/Test Strategy/TS KATA 1 - Login API.md",
+                "file": "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TS KATA 1 - Login API"
+              "title": "Automation KATA 1 — Page Object Layer Fundamentals"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 490.5086555480957
   },
   "right": {
     "id": "188f3c9b3cf434f4",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Katas/Test Strategy/TS KATA 1 - Login API.md",
+                "file": "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TS KATA 1 - Login API"
+              "title": "Backlinks for Automation KATA 1 — Page Object Layer Fundamentals"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Katas/Test Strategy/TS KATA 1 - Login API.md",
+                "file": "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TS KATA 1 - Login API"
+              "title": "Outgoing links from Automation KATA 1 — Page Object Layer Fundamentals"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Katas/Test Strategy/TS KATA 1 - Login API.md",
+                "file": "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TS KATA 1 - Login API"
+              "title": "Outline of Automation KATA 1 — Page Object Layer Fundamentals"
             }
           }
         ]
@@ -185,13 +185,36 @@
   },
   "active": "64365eb394d82156",
   "lastOpenFiles": [
-    "src",
-    "Katas/System Design/SD KATA 1 - API Design Fundamentals.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests/example.spec.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/playwright.config.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/streams.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/storage.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/navigator.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/fetch.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/events.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/domexception.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/crypto.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/abortcontroller.d.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/undici-types/README.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/README.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/server/chromium/appIcon.png",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/README.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/README.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-planner.agent.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-plan.prompt.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-healer.agent.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-heal.prompt.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-generator.agent.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-generate.prompt.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-coverage.prompt.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@playwright/test/README.md",
     "Katas/Test Strategy/TS KATA 1 - Login API.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
+    "Katas/System Design/SD KATA 1 - API Design Fundamentals.md",
     "src/Pasted image 20251202210754.png",
-    "README.md",
-    "Katas/Test Strategy",
-    "Katas/System Design",
-    "Katas"
+    "README.md"
   ]
 }
