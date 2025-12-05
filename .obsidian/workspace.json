@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9fec64b2c03390f1",
+        "id": "ec1314e86a4ac1f5",
         "type": "tabs",
         "children": [
           {
-            "id": "e9a5c6eb2c2c71fc",
+            "id": "6622df6a7178d7fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5086555480957
+    "width": 416.5086555480957
   },
   "right": {
     "id": "188f3c9b3cf434f4",
@@ -183,19 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "64365eb394d82156",
+  "active": "6622df6a7178d7fc",
   "lastOpenFiles": [
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests/example.spec.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/playwright.config.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/streams.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/storage.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/navigator.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/fetch.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/events.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/domexception.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/crypto.d.ts",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/web-globals/abortcontroller.d.ts",
+    "Katas/System Design/SD KATA 1 - API Design Fundamentals.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
+    "Katas/Test Strategy/TS KATA 1 - Login API.md",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals",
+    "Katas/Automation",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests/test-1.spec.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/test-results",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests/example.specc.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/tests/basePage.spec.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/playwright-report/index.html",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/playwright-report",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/pages/BasePage.ts",
+    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/pages",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/undici-types/README.md",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@types/node/README.md",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
@@ -211,9 +213,6 @@
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-generate.prompt.md",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/lib/agents/playwright-test-coverage.prompt.md",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/@playwright/test/README.md",
-    "Katas/Test Strategy/TS KATA 1 - Login API.md",
-    "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
-    "Katas/System Design/SD KATA 1 - API Design Fundamentals.md",
     "src/Pasted image 20251202210754.png",
     "README.md"
   ]

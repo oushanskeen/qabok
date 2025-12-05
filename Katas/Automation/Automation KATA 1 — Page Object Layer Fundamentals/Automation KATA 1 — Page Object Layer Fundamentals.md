@@ -208,3 +208,72 @@ npm init playwright@latest
 - Documentation clear for any engineer to create new Page Objects
 - No flaky tests; code meets team style standards
 - PO approves completion
+
+## Appendix 1: Requirements Map
+
+```mermaid
+
+stateDiagram-v2
+
+isPrReady --> isUsageREADMYReady : ⬇️ require
+isUsageREADMYReady --> isPrReady : ⏩ thenMustBe
+
+isUsageREADMYReady --> isLoginPOMPageReady : ⬇️ require
+isLoginPOMPageReady --> isUsageREADMYReady : ⚒️ createReadme
+
+isBasePageReady --> hasBasePageBasicOperation : ⬇️ require
+hasBasePageBasicOperation --> isBasePageReady : ⏩ thenMustBe
+
+isBasePageReady --> isBasePageComposable : ⬇️ require
+isBasePageComposable --> isBasePageReady : ⏩ thenMustBe
+
+isLoginPOMPageReady --> hasLoginPageBusinessActions : ⬇️ require
+hasLoginPageBusinessActions --> isLoginPOMPageReady : ⏩ thenMustBe
+
+hasLoginPageBusinessActions --> hasLoginAction : ⬇️ require
+hasLoginAction --> hasLoginPageBusinessActions : ⏩ thenMustBe
+
+hasLoginAction --> isLoginActionTestPassed : ⬇️ require
+isLoginActionTestPassed --> hasLoginAction : ⏩ thenMustBe
+
+hasLoginPageBusinessActions --> hasLogOutAction : ⬇️ require
+hasLogOutAction --> hasLoginPageBusinessActions : ⏩ thenMustBe
+
+hasLogOutAction --> isLogoutActionTestPassed : ⬇️ require
+isLogoutActionTestPassed --> hasLogOutAction : ⏩ thenMustBe
+
+isLogoutActionTestPassed --> isTestSupportThreeBrowsersViaConfig : ⬇️ require
+isTestSupportThreeBrowsersViaConfig --> isLogoutActionTestPassed : ⚒️ makeLogoutTestPass
+
+isLoginActionTestPassed --> isTestSupportThreeBrowsersViaConfig : ⬇️ require
+isTestSupportThreeBrowsersViaConfig --> isLoginActionTestPassed : ⚒️ makeLoginTestPass
+
+isTestSupportThreeBrowsersViaConfig --> isPlaywrightSampleTestsPass : ⬇️ require
+isPlaywrightSampleTestsPass --> isTestSupportThreeBrowsersViaConfig : ⏩ thenMustBe
+ 
+✅void --> isPlaywrightSampleTestsPass : ⚒️ initPlaywright ⛳️
+
+isLoginActionTestPassed --> isSampleAppAvailable : ⬇️ require
+isSampleAppAvailable --> isLoginActionTestPassed : ⚒️ implementLoginTestsAndFunc
+
+isLogoutActionTestPassed --> isSampleAppAvailable : ⬇️ require
+isSampleAppAvailable --> isLogoutActionTestPassed : ⚒️ implementLogoutTestsAndFunc
+
+✅void --> isSampleAppAvailable: ⚒️ createSimpleReactProject ⛳️
+
+hasBasePageBasicOperation --> isPlaywrightSampleTestsPass : ⬇️ require
+isPlaywrightSampleTestsPass --> hasBasePageBasicOperation : ⚒️ addBasicOperations
+
+isBasePageComposable --> isPlaywrightSampleTestsPass : ⬇️ require
+isPlaywrightSampleTestsPass --> isBasePageComposable : ⚒️ createBasicComposableBasePage
+
+isLoginPageComposedFromBasePage --> isBasePageReady : ⬇️ require
+isBasePageReady --> isLoginPageComposedFromBasePage : ⚒️ createLoginPage 
+
+hasLoginPageLazyLocators --> isLoginPageComposedFromBasePage : ⬇️ require
+isLoginPageComposedFromBasePage --> hasLoginPageLazyLocators : ⚒️ addLaztLocators
+
+hasLoginPageBusinessActions --> hasLoginPageLazyLocators : ⬇️ require
+hasLoginPageLazyLocators --> hasLoginPageBusinessActions : ⚒️ addBusinessActions
+
+```
