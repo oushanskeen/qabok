@@ -242,16 +242,16 @@ hasLogOutAction --> hasLoginPageBusinessActions : ⏩ thenMustBe
 hasLogOutAction --> isLogoutActionTestPassed : ⬇️ require
 isLogoutActionTestPassed --> hasLogOutAction : ⏩ thenMustBe
 
-isLogoutActionTestPassed --> isTestSupportThreeBrowsersViaConfig : ⬇️ require
-isTestSupportThreeBrowsersViaConfig --> isLogoutActionTestPassed : ⚒️ makeLogoutTestPass
+isLogoutActionTestPassed --> ✅isTestSupportThreeBrowsersViaConfig : ⬇️ require
+✅isTestSupportThreeBrowsersViaConfig --> isLogoutActionTestPassed : ⚒️ makeLogoutTestPass ⛳️
 
-isLoginActionTestPassed --> isTestSupportThreeBrowsersViaConfig : ⬇️ require
-isTestSupportThreeBrowsersViaConfig --> isLoginActionTestPassed : ⚒️ makeLoginTestPass
+isLoginActionTestPassed --> ✅isTestSupportThreeBrowsersViaConfig : ⬇️ require
+✅isTestSupportThreeBrowsersViaConfig --> isLoginActionTestPassed : ⚒️ makeLoginTestPass ⛳️
 
-isTestSupportThreeBrowsersViaConfig --> isPlaywrightSampleTestsPass : ⬇️ require
-isPlaywrightSampleTestsPass --> isTestSupportThreeBrowsersViaConfig : ⏩ thenMustBe
+✅isTestSupportThreeBrowsersViaConfig --> ✅isPlaywrightSampleTestsPass : ⬇️ require
+✅isPlaywrightSampleTestsPass --> ✅isTestSupportThreeBrowsersViaConfig : ⏩ thenMustBe
  
-✅void --> isPlaywrightSampleTestsPass : ⚒️ initPlaywright ⛳️
+✅void --> ✅isPlaywrightSampleTestsPass : ⚒️ initPlaywright
 
 isLoginActionTestPassed --> isSampleAppAvailable : ⬇️ require
 isSampleAppAvailable --> isLoginActionTestPassed : ⚒️ implementLoginTestsAndFunc
@@ -261,11 +261,11 @@ isSampleAppAvailable --> isLogoutActionTestPassed : ⚒️ implementLogoutTestsA
 
 ✅void --> isSampleAppAvailable: ⚒️ createSimpleReactProject ⛳️
 
-hasBasePageBasicOperation --> isPlaywrightSampleTestsPass : ⬇️ require
-isPlaywrightSampleTestsPass --> hasBasePageBasicOperation : ⚒️ addBasicOperations
+hasBasePageBasicOperation --> ✅isPlaywrightSampleTestsPass : ⬇️ require
+✅isPlaywrightSampleTestsPass --> hasBasePageBasicOperation : ⚒️ addBasicOperations ⛳️
 
-isBasePageComposable --> isPlaywrightSampleTestsPass : ⬇️ require
-isPlaywrightSampleTestsPass --> isBasePageComposable : ⚒️ createBasicComposableBasePage
+isBasePageComposable --> ✅isPlaywrightSampleTestsPass : ⬇️ require
+✅isPlaywrightSampleTestsPass --> isBasePageComposable : ⚒️ createBasicComposableBasePage ⛳️
 
 isLoginPageComposedFromBasePage --> isBasePageReady : ⬇️ require
 isBasePageReady --> isLoginPageComposedFromBasePage : ⚒️ createLoginPage 
@@ -277,3 +277,6 @@ hasLoginPageBusinessActions --> hasLoginPageLazyLocators : ⬇️ require
 hasLoginPageLazyLocators --> hasLoginPageBusinessActions : ⚒️ addBusinessActions
 
 ```
+
+- [x] init Playwright
+- [x] test supports three browsers
