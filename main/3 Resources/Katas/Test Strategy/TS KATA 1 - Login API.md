@@ -4,7 +4,8 @@
 [[#4. Traceability & Coverage]]
 [[#5. MECE Assessment
 
-![[LoginAPI Risks Assessment.png]]
+![img](src/LoginAPIRisksAssessment.png)
+
 ### 1. Requirements Analysis
 
 - **Diagram** system components and interactions to identify:
