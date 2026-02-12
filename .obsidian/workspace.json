@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "main/3 Resources/Katas/Test Strategy/TS KATA 1 - Login API.md",
+                "file": "CHANGELOG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TS KATA 1 - Login API"
+              "title": "CHANGELOG"
             }
           }
         ],
@@ -200,8 +200,12 @@
   },
   "active": "dd2dd7c9769c4d84",
   "lastOpenFiles": [
-    "src/LoginAPI.md",
+    "main/2 Areas/Quality/On Quality Model.md",
+    "CHANGELOG.md",
     "main/3 Resources/Katas/Test Strategy/TS KATA 1 - Login API.md",
+    "main/2 Areas/Quality",
+    "main/2 Areas/On Quality Model.md",
+    "src/LoginAPI.md",
     "README.md",
     "src/LoginAPIRisksAssessment.png",
     "src/Pasted image 20251202210754.png",
@@ -216,7 +220,6 @@
     "main/1 Projects/Tools/APITest",
     "main/1 Projects/Tools/ContractExtractor",
     "main/1 Projects/Tools/XStatePlaywright",
-    "main/1 Projects/Tools/MetricTree",
     "Classes Taxonomy.md",
     "main/2 Areas/CS/OOP/Classes Taxonomy.md",
     "main/3 Resources/Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
@@ -239,9 +242,6 @@
     "wip/Playwright Framework Extension Points Matrix.md",
     "wip/On SWOT.md",
     "wip/On Quality Model.md",
-    "wip/On OOP.md",
-    "wip/On Module Mono.md",
-    "wip/on layers.md",
     "Hello canvas.canvas",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
