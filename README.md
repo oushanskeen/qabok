@@ -3,6 +3,7 @@ is a personal collection of quality related notes, katas, articles, and anything
 
 # Content
 
+```code
 .
 ├── CHANGELOG.md
 ├── main
@@ -42,3 +43,4 @@ is a personal collection of quality related notes, katas, articles, and anything
 └── src
     ├── LoginAPIRisksAssessment.png
     └── Pasted image 20251202210754.png
+```
