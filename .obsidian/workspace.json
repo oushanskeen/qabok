@@ -25,12 +25,14 @@
             "id": "dd2dd7c9769c4d84",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "src/Pasted image 20251202210754.png"
+                "file": "main/3 Resources/Katas/Test Strategy/TS KATA 1 - Login API.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251202210754"
+              "icon": "lucide-file",
+              "title": "TS KATA 1 - Login API"
             }
           }
         ],
@@ -196,8 +198,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "64365eb394d82156",
+  "active": "dd2dd7c9769c4d84",
   "lastOpenFiles": [
+    "src/Pasted image 20251202210754.png",
+    "main/3 Resources/Katas/System Design/SD KATA 1 - API Design Fundamentals.md",
+    "src/LoginAPI Risks Assessment.png",
+    "src/Group 24.png",
     "main/1 Projects/Tools",
     "main/1 Projects/Articles",
     "main/1 Projects/Tools/QABOK",
@@ -208,7 +214,6 @@
     "main/1 Projects/Tools/ContractExtractor",
     "main/1 Projects/Tools/XStatePlaywright",
     "main/1 Projects/Tools/MetricTree",
-    "main/1 Projects/Tools/EFK",
     "Classes Taxonomy.md",
     "main/2 Areas/CS/OOP/Classes Taxonomy.md",
     "main/3 Resources/Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
@@ -228,7 +233,6 @@
     "main/3 Resources/Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright/README.md",
     "main/3 Resources/Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/Automation KATA 1 — Page Object Layer Fundamentals.md",
     "main/3 Resources/Katas/Test Strategy/TS KATA 1 - Login API.md",
-    "main/3 Resources/Katas/System Design/SD KATA 1 - API Design Fundamentals.md",
     "wip/Playwright framework risks.md",
     "wip/Playwright Framework Extension Points Matrix.md",
     "wip/On SWOT.md",
@@ -237,7 +241,6 @@
     "wip/On Module Mono.md",
     "wip/on layers.md",
     "wip/On Invariants.md",
-    "src/Pasted image 20251202210754.png",
     "Hello canvas.canvas",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
     "Katas/Automation/Automation KATA 1 — Page Object Layer Fundamentals/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",

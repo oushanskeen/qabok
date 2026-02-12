@@ -2,8 +2,9 @@
 [[#2. Risk Identification]]
 [[#3. Test Design]]
 [[#4. Traceability & Coverage]]
-[[#5. MECE Assessment]]
+[[#5. MECE Assessment
 
+![[LoginAPI Risks Assessment.png]]
 ### 1. Requirements Analysis
 
 - **Diagram** system components and interactions to identify:
